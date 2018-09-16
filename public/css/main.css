@@ -1,0 +1,17 @@
+body {
+  background-color: #0f1822;
+  background-image: url("./images/space.jpg");
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+  padding-bottom: 5px;
+  color: white;
+  font-family: Merriweather;
+  text-transform: uppercase;
+}
+
+label {
+  color: goldenrod;
+}
