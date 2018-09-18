@@ -15,7 +15,7 @@ const missionDropdown = new SelectedView(selectElement);
 missionDropdown.bindEvents();
 
 const missionInfoContainer = document.querySelector('div#mission');
-const missionInfoView = new MissionInfoView(missionInfoView);
+const missionInfoView = new MissionInfoView(missionInfoContainer);
 missionInfoView.bindEvents();
 
 });

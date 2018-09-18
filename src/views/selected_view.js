@@ -1,6 +1,6 @@
 const PubSub = require('../helpers/pub_sub.js');
 
-const SelectedView = function(){
+const SelectedView = function(element){
   this.element = element;
 }
 
@@ -20,7 +20,7 @@ SelectedView.prototype.bindEvents = function(){
 SelectedView.prototype.populate = function(allMissions){
   allMissions.forEach((mission, index) => {
     const option = document.createElement('option');
-    option.textContent = mission.name;
+    option.textContent = mission.mission_name;
     option.value = index;
     this.element.appendChild(option);
   });

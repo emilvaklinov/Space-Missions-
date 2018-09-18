@@ -15,3 +15,8 @@ h1 {
 label {
   color: goldenrod;
 }
+
+select {
+  cursor: pointer;
+  width: 250px;
+}
