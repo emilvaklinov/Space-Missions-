@@ -16,10 +16,21 @@ MissionInfoView.prototype.render = function(){
 
   const missionName = this.createTextElement('h3', mission.mission_name)
   this.container.appendChild(missionName);
-  const missionRocket = this.createTextElement('h4', mission.rocket)
-  this.container.appendChild(missionRocket);
+  // const rocketName = this.createTextElement('h4', rocket.rocket_name)
+  // this.container.appendChild(rocketName);
 
 }
+
+// const rocketNames = rockets.rocket_names.forEach((rocket) => {
+//     const rocketName = this.createTextElement('p', rocket.rocket_name);
+//     this.container.appendChild(rocketName);
+//
+// MissionInfoView.prototype.render = function(){
+//   this.container.innerHTML = '';
+//   const missionRocketName = this.createTextElement('h3', mission.rocket.rocket_name)
+//   this.container.appendChild(missionRocketName);
+//
+// }
 
 MissionInfoView.prototype.createTextElement = function (elementType, text) {
   const element = document.createElement(elementType);

@@ -24,6 +24,14 @@ SelectedView.prototype.populate = function(allMissions){
     option.value = index;
     this.element.appendChild(option);
   });
+
+  // SelectedView.prototype.populate = function(allMissions){
+  //   allMissions.forEach((mission, index) => {
+  //     const option = document.createElement('option');
+  //     option.textContent = mission.rocket.rocket_name;
+  //     option.value = index;
+  //     this.element.appendChild(option);
+  //   });
 }
 
 
